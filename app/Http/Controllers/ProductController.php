@@ -17,7 +17,7 @@ class ProductController extends Controller
             return response()->json($products);
         } catch (\Throwable $th) {
             return response()->json([
-                'error' => 'Error al actualizar el producto.',
+                'error' => 'Error al obtener los productos.',
                 'message' => $th->getMessage()
             ], 500);
         }
@@ -52,7 +52,7 @@ class ProductController extends Controller
             ], 201);
         } catch (\Throwable $th) {
             return response()->json([
-                'error' => 'Error al actualizar el producto.',
+                'error' => 'Error al crear el producto.',
                 'message' => $th->getMessage()
             ], 500);
         }
@@ -73,7 +73,7 @@ class ProductController extends Controller
             }
         } catch (\Throwable $th) {
             return response()->json([
-                'error' => 'Error al actualizar el producto.',
+                'error' => 'Error al obtener el producto.',
                 'message' => $th->getMessage()
             ], 500);
         }
@@ -136,7 +136,7 @@ class ProductController extends Controller
             }
         } catch (\Throwable $th) {
             return response()->json([
-                'error' => 'Error al actualizar el producto.',
+                'error' => 'Error al eliminar el producto.',
                 'message' => $th->getMessage()
             ], 500);
         }
