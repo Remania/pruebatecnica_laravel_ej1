@@ -33,7 +33,8 @@ composer install
 ### 3. Ejecutar migraciones
 Crea las tablas de la base de datos necesarias para la API ejecutando las migraciones:
 
-php artisan migrate
+- php artisan migrate
+- Tipear "yes" para crear la base de datos y sus tablas
 
 ### 4. Configurar variables de entorno (.env)
 
