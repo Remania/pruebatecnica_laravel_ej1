@@ -59,5 +59,5 @@ Actualizar un producto existente:
 - URL: http://127.0.0.1:8000/api/products/{id}
 
 Eliminar un producto: 
-DELETE /api/products/{id}
-URL: http://127.0.0.1:8000/api/products/{id}
+- DELETE /api/products/{id}
+- URL: http://127.0.0.1:8000/api/products/{id}
