@@ -43,20 +43,20 @@ php artisan serve
 Puedes probar los endpoints de la API utilizando herramientas como Postman o la extensión ThunderClient de Visual Studio Code. A continuación, algunos ejemplos de los endpoints disponibles:
 
 Obtener todos los productos: 
-GET /api/products
-URL: http://127.0.0.1:8000/api/products/
+- GET /api/products
+- URL: http://127.0.0.1:8000/api/products/
 
 Obtener un producto por ID: 
-GET /api/products/{id}
-URL: http://127.0.0.1:8000/api/products/{id}
+- GET /api/products/{id}
+- URL: http://127.0.0.1:8000/api/products/{id}
 
 Crear un nuevo producto: 
-POST /api/products
-URL: http://127.0.0.1:8000/api/products/
+- POST /api/products
+- URL: http://127.0.0.1:8000/api/products/
 
 Actualizar un producto existente: 
-PUT /api/products/{id}
-URL: http://127.0.0.1:8000/api/products/{id}
+- PUT /api/products/{id}
+- URL: http://127.0.0.1:8000/api/products/{id}
 
 Eliminar un producto: 
 DELETE /api/products/{id}
