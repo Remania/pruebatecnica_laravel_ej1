@@ -34,6 +34,13 @@ Crea las tablas de la base de datos necesarias para la API ejecutando las migrac
 
 php artisan migrate
 
+### 4. Configurar variables de entorno (.env)
+
+Configurar el servidor de desarrollo de Laravel con los siguientes pasos:
+
+Copiar el archivo .env.example y renombrarlo como .env
+Usar el comando: php artisan key:generate
+
 ### 4. Iniciar el servidor de desarrollo
 Inicia el servidor de desarrollo de Laravel con el siguiente comando:
 
