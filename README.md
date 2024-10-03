@@ -38,8 +38,8 @@ php artisan migrate
 
 Configurar el servidor de desarrollo de Laravel con los siguientes pasos:
 
-Copiar el archivo .env.example y renombrarlo como .env
-Usar el comando: php artisan key:generate
+- Copiar el archivo .env.example y renombrarlo como .env
+- Usar el comando: php artisan key:generate
 
 ### 4. Iniciar el servidor de desarrollo
 Inicia el servidor de desarrollo de Laravel con el siguiente comando:
