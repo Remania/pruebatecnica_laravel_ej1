@@ -1,6 +1,7 @@
 # Proyecto CRUD API en Laravel
 
-Este repositorio contiene una API CRUD desarrollada con el framework Laravel (utiliza SQLite como Base de Datos). A continuación, se explican los pasos para clonar y ejecutar este proyecto localmente.
+- Este repositorio contiene una API CRUD desarrollada con el framework Laravel (utiliza SQLite como Base de Datos). A continuación, se explican los pasos para clonar y ejecutar este proyecto localmente.
+- Para poder visualizar la base de datos SQLite se recomienda instalar la extensión SQLite Viewer en Visual Studio Code
 
 ## Requisitos previos
 
@@ -60,10 +61,22 @@ Obtener un producto por ID:
 Crear un nuevo producto: 
 - POST /api/products
 - URL: http://127.0.0.1:8000/api/products/
+- Datos de ejemplo: {
+  "name": "Laptop Lenovo",
+  "description": "Laptop de baja gama",
+  "price": 700.50,
+  "stock_quantity": 10
+}
 
 Actualizar un producto existente: 
 - PUT /api/products/{id}
 - URL: http://127.0.0.1:8000/api/products/{id}
+- Datos de ejemplo: {
+  "name": "Laptop Lenovo",
+  "description": "Laptop de alta gama",
+  "price": 1500,
+  "stock_quantity": 70
+}
 
 Eliminar un producto: 
 - DELETE /api/products/{id}
