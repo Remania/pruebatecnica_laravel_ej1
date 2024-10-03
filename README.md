@@ -68,3 +68,11 @@ Actualizar un producto existente:
 Eliminar un producto: 
 - DELETE /api/products/{id}
 - URL: http://127.0.0.1:8000/api/products/{id}
+
+## Decisiones tomadas durante el desarrollo
+
+- Se siguió el modelo MVC que ofrece el framework Laravel para una organización modular
+- Se validaron los datos utilizando las funciones integradas de Laravel
+- Se hizo uso del try-catch para manejar los posibles errores del programa
+- Se utilizo el ORM integrado de Laravel, Eloquent, para realizar las consultas SQL
+- Se utilizo la base de datos por defecto que viene al crear un proyecto Laravel, SQLite
